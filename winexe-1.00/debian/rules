@@ -1,0 +1,14 @@
+#!/usr/bin/make -f
+
+%:
+	dh $@ --sourcedirectory=source4
+
+override_dh_auto_configure:
+	cd source4 && ./autogen.sh && ./configure --prefix=/usr --enable-fhs
+
+override_dh_auto_build:
+	cd source4 && make basics idl bin/winexe
+
+override_dh_auto_test override_dh_usrlocal override_dh_installinit override_dh_auto_install:
+	:
+

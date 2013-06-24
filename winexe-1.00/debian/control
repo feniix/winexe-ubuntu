@@ -1,0 +1,17 @@
+Source: winexe
+Section: net
+Priority: extra
+Maintainer: Thomas Hood <jdthood@gmail.com>
+Build-Depends: debhelper (>= 8), autoconf (>= 2.53), python (>= 2.3), python-dev
+Homepage: http://sourceforge.net/projects/winexe/
+Vcs-Git: git://winexe.git.sourceforge.net/gitroot/winexe/winexe
+Vcs-Browser: http://winexe.git.sourceforge.net/git/gitweb-index.cgi
+Standards-Version: 3.9.4.0
+
+Package: winexe
+Architecture: any
+Depends: ${misc:Depends}
+Description: Remote Windows command executor
+ This package contains the winexe program which allows
+ the user to execute arbitrary cmd.exe commands on a remote
+ Windows machine.

@@ -1,0 +1,7 @@
+winexe (1.00-0openpcf3) precise; urgency=low
+
+  * Build for OpenPCF repository under Ubuntu 12.04 LTS
+
+ -- Thomas Hood <jdthood@gmail.com>  Thu, 27 Sep 2012 12:00:00 +0200
+
+
