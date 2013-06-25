@@ -2,7 +2,7 @@ Source: winexe
 Section: net
 Priority: extra
 Maintainer: Thomas Hood <jdthood@gmail.com>
-Build-Depends: debhelper (>= 8), autoconf (>= 2.53), python (>= 2.3), python-dev
+Build-Depends: debhelper (>= 8), autoconf (>= 2.53), autotools-dev, python (>= 2.3), python-dev
 Homepage: http://sourceforge.net/projects/winexe/
 Vcs-Git: git://winexe.git.sourceforge.net/gitroot/winexe/winexe
 Vcs-Browser: http://winexe.git.sourceforge.net/git/gitweb-index.cgi

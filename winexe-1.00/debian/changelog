@@ -1,3 +1,9 @@
+winexe (1.00-1feniix0) precise; urgency=low
+
+  * New build
+
+ -- Sebastian Otaegui <feniix@gmail.com>  Mon, 24 Jun 2013 15:49:07 -0500
+
 winexe (1.00-0openpcf3) precise; urgency=low
 
   * Build for OpenPCF repository under Ubuntu 12.04 LTS
